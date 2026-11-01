@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Runtime data and generated artifacts
+data/
+logs/
+models/
+predictions/
+reports/
+monitoring/reports/
+notebooks/*/reports/
+dashboards/generated/
+dashboards/data/
+*.pbix
+*.pkl
+*.joblib
+*.zip
+
+# Editor and operating-system files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db

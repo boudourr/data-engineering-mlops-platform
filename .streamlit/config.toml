@@ -1,0 +1,15 @@
+[theme]
+# Primary brand colour — used for buttons, sliders, selectors, active states
+primaryColor = "#4F46E5"
+
+# Main page background — clean, very slightly cool white
+backgroundColor = "#F1F5F9"
+
+# Sidebar & widget background — pure white cards
+secondaryBackgroundColor = "#FFFFFF"
+
+# Body text colour — near-black for maximum readability
+textColor = "#0F172A"
+
+# Typography
+font = "sans serif"
